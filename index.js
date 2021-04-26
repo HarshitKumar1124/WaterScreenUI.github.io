@@ -9,7 +9,8 @@ var clockLandscape = setInterval(RuntimeL, 1000);
 
 $(".Viewport").ripples({
 
-    peturbance: 0.01,
+    peturbance: 0.05,
+    resolution: 200,
 });
 
 
